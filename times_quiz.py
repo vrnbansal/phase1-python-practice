@@ -1,12 +1,12 @@
 score = 0
 
 for number in range(1, 11):
-    answer = input(f"What is 3 x {number}? ")
-    if int(answer) == 3 * number:
+    answer = input(f"What is 5 x {number}? ")
+    if int(answer) == 5 * number:
         print("Correct!")
         score = score + 1
     else:
-        print(f"Wrong, it is {3 * number}")
+        print(f"Wrong, it is {5 * number}")
 
 print(f"You got {score} out of 10")
 
