@@ -1,3 +1,4 @@
 .env
 _pyache_/
 *.log
+results.txt
